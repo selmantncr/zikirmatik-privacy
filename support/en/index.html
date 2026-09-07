@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Zikirmatik — Support</title>
+<style>
+  :root {
+    color-scheme: light dark;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.65;
+    color: #1c1c1e;
+    background: #fafafa;
+  }
+  .wrap {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 40px 20px 80px;
+  }
+  h1 {
+    font-size: 26px;
+    margin: 0 0 6px;
+    line-height: 1.3;
+  }
+  .updated {
+    color: #6e6e73;
+    font-size: 14px;
+    margin: 0 0 32px;
+  }
+  h2 {
+    font-size: 18px;
+    margin: 32px 0 8px;
+    /* Sayfa `dir` ne olursa olsun doğru kenardan başlasın diye mantıksal kenar. */
+    border-inline-start: 4px solid #2e7d32;
+    padding-inline-start: 10px;
+  }
+  h3 {
+    font-size: 16px;
+    margin: 24px 0 6px;
+  }
+  p {
+    font-size: 16px;
+    margin: 0 0 14px;
+  }
+  .intro {
+    font-size: 17px;
+    padding: 16px 18px;
+    background: #eef7ee;
+    border-radius: 10px;
+    margin-bottom: 8px;
+  }
+  .contact {
+    padding: 18px;
+    background: #eef7ee;
+    border-radius: 10px;
+    margin: 8px 0 8px;
+    font-size: 17px;
+  }
+  .contact .addr {
+    font-size: 19px;
+    font-weight: 700;
+    display: block;
+    margin-top: 4px;
+    word-break: break-all;
+  }
+  .note {
+    margin-top: 36px;
+    padding: 16px 18px;
+    background: #fff4e5;
+    border-radius: 10px;
+    font-size: 15px;
+  }
+  dl.meta {
+    margin: 8px 0 0;
+    font-size: 15px;
+  }
+  dl.meta div {
+    display: flex;
+    gap: 10px;
+    padding: 7px 0;
+    border-bottom: 1px solid #ececec;
+  }
+  dl.meta dt {
+    color: #6e6e73;
+    flex: 0 0 42%;
+  }
+  dl.meta dd { margin: 0; font-weight: 600; }
+  footer {
+    margin-top: 48px;
+    padding-top: 20px;
+    border-top: 1px solid #e0e0e0;
+    font-size: 14px;
+    color: #6e6e73;
+  }
+  a {
+    color: #2e7d32;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  a:hover { text-decoration: underline; }
+
+  @media (prefers-color-scheme: dark) {
+    body { background: #0f0f10; color: #e6e6e6; }
+    .updated { color: #9a9a9e; }
+    .intro, .contact { background: #16241a; }
+    .note { background: #2a2213; }
+    dl.meta div { border-bottom-color: #2a2a2c; }
+    dl.meta dt { color: #9a9a9e; }
+    footer { border-top-color: #2a2a2c; color: #9a9a9e; }
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Zikirmatik — Support</h1>
+    <p class="updated">Last updated: 7 September 2026</p>
+
+    <p class="contact">
+      For questions, suggestions or bug reports, write to us:
+      <a class="addr" href="mailto:destek.zikirmatik@outlook.com?subject=Zikirmatik%20support">destek.zikirmatik@outlook.com</a>
+    </p>
+
+    <p>
+      Telling us your device (for example iPhone 13), your OS version and the app
+      version helps us find the problem much faster. You can find the app version
+      under <strong>Settings &rarr; About</strong>.
+    </p>
+
+    <h2>Frequently asked questions</h2>
+
+    <h3>How does hands-free mode work?</h3>
+    <p>
+      The dhikr text on screen is swept through at reading pace; when the sweep
+      finishes, the counter advances by one on its own. You do not need to touch
+      the screen. <strong>No microphone is used</strong> — the app does not listen
+      to you and never asks for audio recording permission.
+    </p>
+
+    <h3>Is my data backed up?</h3>
+    <p>
+      No. Your counts, the dhikr you add and your settings are stored only on your
+      device and are never sent to any server. The trade-off is this:
+      <strong>if you delete the app or switch phones, the data does not come
+      back.</strong> There is currently no cloud backup and no sync between devices.
+    </p>
+
+    <h3>Where does the content come from?</h3>
+    <p>
+      Every entry in the library carries its source inside the app: Qur'anic and
+      hadith references are stated openly. Texts compiled in later periods are
+      marked as such, so they are not mixed up with sound narrations. If you
+      believe a reference is wrong, please write to us — source accuracy matters to
+      us as much as the content itself.
+    </p>
+
+    <h3>What is a dhikr chain?</h3>
+    <p>
+      It lets you work through several dhikr in sequence. You set up your
+      after-prayer routine once, and from then on start it with a single tap. You
+      can rename a chain, and the same dhikr can appear in more than one chain.
+    </p>
+
+    <h3>My reminders are not arriving</h3>
+    <p>
+      Reminders are scheduled on your device, not sent from a server. If nothing
+      arrives, first check on iOS under
+      <strong>Settings &rarr; Notifications &rarr; Zikirmatik</strong> that
+      notifications are allowed, and that Focus or Do Not Disturb is not on. If the
+      problem persists, write to us.
+    </p>
+
+    <h3>Can I change the app language?</h3>
+    <p>
+      Yes. Turkish, English and Arabic are supported, selectable under
+      <strong>Settings &rarr; Language</strong>. Arabic is a full interface
+      language: it comes with right-to-left layout and Arabic numerals.
+    </p>
+
+    <h3>Are there prayer times or a home screen widget?</h3>
+    <p>
+      Not in this version. Both were deliberately left outside the scope of the
+      first release.
+    </p>
+
+    <h2>Version information</h2>
+    <dl class="meta">
+      <div><dt>App version</dt><dd>1.0.0</dd></div>
+      <div><dt>Supported systems</dt><dd>iOS 16.4+ &middot; Android 7.0+</dd></div>
+      <div><dt>Account required</dt><dd>No</dd></div>
+      <div><dt>Internet required</dt><dd>No</dd></div>
+    </dl>
+
+    <h2>Privacy</h2>
+    <p>
+      The app collects no data about your use and sends nothing to any server. See
+      the <a href="../../en/">privacy policy</a> for details.
+    </p>
+
+    <p class="note">
+      This version contains no advertising network, analytics or crash reporting
+      service. If advertising is added, this page and the privacy policy will be
+      updated together.
+    </p>
+
+    <footer>
+      <a href="../">Türkçe</a> &middot; <a href="../ar/">العربية</a> &middot;
+      <a href="../../en/">Privacy policy</a>
+    </footer>
+  </div>
+</body>
+</html>

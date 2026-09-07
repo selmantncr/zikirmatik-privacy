@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Zikirmatik — Destek</title>
+<style>
+  :root {
+    color-scheme: light dark;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.65;
+    color: #1c1c1e;
+    background: #fafafa;
+  }
+  .wrap {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 40px 20px 80px;
+  }
+  h1 {
+    font-size: 26px;
+    margin: 0 0 6px;
+    line-height: 1.3;
+  }
+  .updated {
+    color: #6e6e73;
+    font-size: 14px;
+    margin: 0 0 32px;
+  }
+  h2 {
+    font-size: 18px;
+    margin: 32px 0 8px;
+    /* Sayfa `dir` ne olursa olsun doğru kenardan başlasın diye mantıksal kenar. */
+    border-inline-start: 4px solid #2e7d32;
+    padding-inline-start: 10px;
+  }
+  h3 {
+    font-size: 16px;
+    margin: 24px 0 6px;
+  }
+  p {
+    font-size: 16px;
+    margin: 0 0 14px;
+  }
+  .intro {
+    font-size: 17px;
+    padding: 16px 18px;
+    background: #eef7ee;
+    border-radius: 10px;
+    margin-bottom: 8px;
+  }
+  .contact {
+    padding: 18px;
+    background: #eef7ee;
+    border-radius: 10px;
+    margin: 8px 0 8px;
+    font-size: 17px;
+  }
+  .contact .addr {
+    font-size: 19px;
+    font-weight: 700;
+    display: block;
+    margin-top: 4px;
+    word-break: break-all;
+  }
+  .note {
+    margin-top: 36px;
+    padding: 16px 18px;
+    background: #fff4e5;
+    border-radius: 10px;
+    font-size: 15px;
+  }
+  dl.meta {
+    margin: 8px 0 0;
+    font-size: 15px;
+  }
+  dl.meta div {
+    display: flex;
+    gap: 10px;
+    padding: 7px 0;
+    border-bottom: 1px solid #ececec;
+  }
+  dl.meta dt {
+    color: #6e6e73;
+    flex: 0 0 42%;
+  }
+  dl.meta dd { margin: 0; font-weight: 600; }
+  footer {
+    margin-top: 48px;
+    padding-top: 20px;
+    border-top: 1px solid #e0e0e0;
+    font-size: 14px;
+    color: #6e6e73;
+  }
+  a {
+    color: #2e7d32;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  a:hover { text-decoration: underline; }
+
+  @media (prefers-color-scheme: dark) {
+    body { background: #0f0f10; color: #e6e6e6; }
+    .updated { color: #9a9a9e; }
+    .intro, .contact { background: #16241a; }
+    .note { background: #2a2213; }
+    dl.meta div { border-bottom-color: #2a2a2c; }
+    dl.meta dt { color: #9a9a9e; }
+    footer { border-top-color: #2a2a2c; color: #9a9a9e; }
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Zikirmatik — Destek</h1>
+    <p class="updated">Son güncelleme: 7 Eylül 2026</p>
+
+    <p class="contact">
+      Sorunuz, öneriniz ya da bir arıza bildirimi için yazın:
+      <a class="addr" href="mailto:destek.zikirmatik@outlook.com?subject=Zikirmatik%20destek">destek.zikirmatik@outlook.com</a>
+    </p>
+
+    <p>
+      Yazarken cihazınızı (örneğin iPhone 13), işletim sistemi sürümünüzü ve
+      uygulama sürümünü eklerseniz sorunu çok daha hızlı bulabiliriz. Uygulama
+      sürümünü <strong>Ayarlar → Hakkında</strong> ekranında görürsünüz.
+    </p>
+
+    <h2>Sık sorulan sorular</h2>
+
+    <h3>Eller serbest modu nasıl çalışır?</h3>
+    <p>
+      Ekrandaki zikir metni, okunma hızında soldan sağa taranır; tarama bitince
+      sayaç kendiliğinden bir artar. Ekrana dokunmanız gerekmez.
+      <strong>Mikrofon kullanılmaz</strong> — uygulama sesinizi dinlemez, ses
+      kaydı izni hiç istenmez.
+    </p>
+
+    <h3>Verilerim yedekleniyor mu?</h3>
+    <p>
+      Hayır. Sayımlarınız, eklediğiniz zikirler ve ayarlarınız yalnızca
+      cihazınızda saklanır; hiçbir sunucuya gönderilmez. Bunun karşılığı şudur:
+      <strong>uygulamayı silerseniz ya da telefon değiştirirseniz veriler geri
+      gelmez.</strong> Şu an bulut yedekleme veya cihazlar arası eşitleme yok.
+    </p>
+
+    <h3>Zikirlerin kaynakları nedir?</h3>
+    <p>
+      Kütüphanedeki her kaydın künyesi uygulamanın içinde görünür: âyet ve hadis
+      kaynakları açıkça yazılıdır. Sonraki dönemde derlenmiş metinler ayrıca
+      işaretlenir, sahih rivayetle karıştırılmaz. Bir künyede hata gördüğünüzü
+      düşünüyorsanız lütfen yazın — kaynak doğruluğu bizim için içeriğin kendisi
+      kadar önemli.
+    </p>
+
+    <h3>Tesbihat zinciri nedir?</h3>
+    <p>
+      Birden çok zikri sırayla çekmenizi sağlar. Örneğin namaz sonrası
+      tesbihatınızı bir kez kurarsınız, sonraki her seferde tek dokunuşla
+      baştan başlarsınız. Zincirin adını değiştirebilir, aynı zikri birden çok
+      zincire koyabilirsiniz.
+    </p>
+
+    <h3>Hatırlatıcılar gelmiyor</h3>
+    <p>
+      Hatırlatıcılar cihazınızda zamanlanır, bir sunucudan gönderilmez. Bildirim
+      gelmiyorsa önce iOS'ta <strong>Ayarlar → Bildirimler → Zikirmatik</strong>
+      yolundan bildirimlere izin verildiğini, Odaklanma (Focus) veya Rahatsız
+      Etmeyin modunun açık olmadığını kontrol edin. Sorun sürerse yazın.
+    </p>
+
+    <h3>Uygulamanın dilini değiştirebilir miyim?</h3>
+    <p>
+      Evet. Türkçe, İngilizce ve Arapça desteklenir; <strong>Ayarlar → Dil</strong>
+      bölümünden seçilir. Arapça tam bir arayüz dilidir: sağdan sola yerleşim ve
+      Arapça rakamlarla birlikte gelir.
+    </p>
+
+    <h3>Namaz vakitleri ya da ana ekran widget'ı var mı?</h3>
+    <p>
+      Bu sürümde yok. İkisi de bilinçli olarak ilk sürümün kapsamı dışında
+      bırakıldı.
+    </p>
+
+    <h2>Sürüm bilgisi</h2>
+    <dl class="meta">
+      <div><dt>Uygulama sürümü</dt><dd>1.0.0</dd></div>
+      <div><dt>Desteklenen sistemler</dt><dd>iOS 16.4+ · Android 7.0+</dd></div>
+      <div><dt>Hesap gerekir mi</dt><dd>Hayır</dd></div>
+      <div><dt>İnternet gerekir mi</dt><dd>Hayır</dd></div>
+    </dl>
+
+    <h2>Gizlilik</h2>
+    <p>
+      Uygulama kullanımınıza dair hiçbir veri toplamaz ve hiçbir sunucuya
+      göndermez. Ayrıntılar için
+      <a href="../">gizlilik politikası</a> sayfasına bakın.
+    </p>
+
+    <p class="note">
+      Bu sürümde reklam ağı, analitik ya da çökme raporlama hizmeti
+      bulunmuyor. Reklam eklendiğinde bu sayfa ve gizlilik politikası birlikte
+      güncellenecek.
+    </p>
+
+    <footer>
+      <a href="./en/">English version</a> · <a href="./ar/">العربية</a> ·
+      <a href="../">Gizlilik politikası</a>
+    </footer>
+  </div>
+</body>
+</html>
